@@ -4,7 +4,7 @@ def page_howto():
     st.title("このサイトの使い方")
     st.header("1.手入力verの使い方")
     st.subheader("下図のように各数値を入力して「計算実行」ボタンを押してください。")
-    #st.image('image/input_hand.png')
+    st.image('image/input_hand.png')
     st.title("\u2193")
     st.subheader("「計算実行」ボタンを押すと下図のように結果が得られます。")
     st.image("image/result_hand.png")
