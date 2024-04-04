@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def page_howto():
-    image = Image.open("input_hand.png")
+    image = Image.open("image/input_hand.png")
     st.title("このサイトの使い方")
     st.header("1.手入力verの使い方")
     st.subheader("下図のように各数値を入力して「計算実行」ボタンを押してください。")
