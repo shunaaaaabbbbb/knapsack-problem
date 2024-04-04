@@ -1,6 +1,9 @@
 import streamlit as st
+from PIL import Image
 
 def page_howto():
+    img = Image.open("image/input_hand.png")
+    st.image(img)
     
     st.title("このサイトの使い方")
     st.header("1.手入力verの使い方")
