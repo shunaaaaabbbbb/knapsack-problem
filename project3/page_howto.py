@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def page_howto():
-    img = Image.open("input_hand.jpg")
+    img = Image.open("input_hand.png")
     st.image(img)
     
     st.title("このサイトの使い方")
