@@ -1,5 +1,5 @@
 import streamlit as st
-
+from PIL import Image
 def page_howto():
     st.title("このサイトの使い方")
     st.header("1.手入力verの使い方")
